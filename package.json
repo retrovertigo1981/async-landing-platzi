@@ -4,7 +4,7 @@
   "description": "Proyecto de curso de asincronismo en JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/retrovertigo1981/async-landing-platzi/issues"
   },
-  "homepage": "https://github.com/retrovertigo1981/async-landing-platzi#readme"
+  "homepage": "https://github.com/retrovertigo1981/async-landing-platzi#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
